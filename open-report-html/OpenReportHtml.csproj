@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>open.report.html</RootNamespace>
+    <PackageProjectUrl>https://github.com/willimar/OpenReportHtml/projects</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/willimar/OpenReportHtml</RepositoryUrl>
+    <Version>1.0.1.1</Version>
+    <Copyright>© 2021 Willimar</Copyright>
+    <Description>The API to render HTML using razor. You can get personal HTML page and Model.</Description>
+    <Product>Open Report HTML WebAPI</Product>
+    <Authors>Rocha, Willimar</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="extension.facilities" Version="1.0.1.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>
