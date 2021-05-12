@@ -46,3 +46,17 @@ This action will remove the file from template path.
 * Has two parameters: file name and model, where file name is a name of the file to render and model is a string with the json format where this json will be deserialised and used as model in render file.
 
 This action will render the file and return html content.
+
+## Configuration
+
+You can use ```appsettings.json``` or enviroment variables
+
+In json file:
+```JSON
+"Program": {
+    "MaxFileLength": 1000000,
+    "TemplatePath": "Views\\Template",
+    "ViewTemplate": "~/Views/Template"
+  }
+```
+To set enviroment variable use section_value. See the exemple: In ```Program.MaxFileLength``` use ```Program_MaxFileLength = 1000000```
